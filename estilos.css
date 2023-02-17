@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top_lavadora {
+  width: 240px;
+  height: 80px;
+  background-color: rgb(176, 173, 177);
+  display: flex;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  width: 12px;
+  height: 12px;
+  background-color: #282323;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.buttons_down{
+  width: 12px;
+  height: 12px;
+  background-color: #282323;
+  margin-top: 28px;
+}
+
+.display {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(22, 126, 158);
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 13px;
+  border-style: solid;
+}
+
+.rueda {
+  width: 40px;
+  height: 40px;
+  background-color: #282323;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.ruedita {
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.cuerpo {
+  width: 240px;
+  height: 300px;
+  background-color: rgb(176, 173, 177);
+  display: flex;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-top: -10px;
+}
+
+.circulo_grande {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.tapa {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(17, 126, 199);
+  border-radius: 50%;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.sensor_largo {
+  width: 42px;
+  height: 12px;
+  background-color: #282323;
+  margin-top: 70px;
+}
+
+.sensor_corto {
+  width: 12px;
+  height: 12px;
+  background-color: #282323;
+  margin-left: 55px;
+  margin-bottom: 10px;
+}
+
+.primera {
+  width: 65px;
+  height: 40px;
+  background-color: rgb(87, 86, 86);
+  margin-left: -100px;
+  margin-top: -10px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 13px;
+  border-style: solid;
+}
+
+.segunda {
+  width: 65px;
+  height: 40px;
+  background-color: rgb(87, 86, 86);
+  margin-left: 120px;
+  margin-top: -13px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 13px;
+  border-style: solid;
+}
