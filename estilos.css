@@ -21,10 +21,10 @@ body {
   flex-direction: column;
 }
 
-.top_lavadora {
+span:first-child {
   width: 240px;
   height: 80px;
-  background-color: rgb(176, 173, 177);
+  background-color: rgb(213, 214, 216);
   display: flex;
   border-color: black;
   border-width: 10px;
@@ -78,7 +78,7 @@ body {
   margin-left: 13px;
 }
 
-.cuerpo {
+span:nth-child(2) {
   width: 240px;
   height: 300px;
   background-color: rgb(176, 173, 177);
@@ -106,7 +106,7 @@ body {
 .tapa {
   width: 150px;
   height: 150px;
-  background-color: rgb(17, 126, 199);
+  background-color: rgb(85, 144, 188);
   border-radius: 50%;
   border-color: black;
   border-width: 10px;
@@ -128,6 +128,10 @@ body {
   background-color: #282323;
   margin-left: 55px;
   margin-bottom: 10px;
+}
+
+span:last-child{
+  background-color: white;
 }
 
 .primera {
